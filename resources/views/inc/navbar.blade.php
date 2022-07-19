@@ -32,7 +32,7 @@
 
   <!-- Template Main CSS File -->
   <link href="css/main.css" rel="stylesheet">
-  
+  @livewireStyles
   <style>.btn-outline-warning {
     --bs-btn-color: #000000!important;}
     

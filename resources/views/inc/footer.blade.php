@@ -155,7 +155,7 @@ Denmark <br><br>
 
 <!-- Template Main JS File -->
 <script src="js/main.js"></script>
-
+@livewireScripts
 </body>
 
 </html>

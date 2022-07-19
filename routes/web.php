@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContactController;
 
+use App\Http\Livewire\Complaint\Index as IndexComplaint;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -43,3 +45,7 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 
 Route::resource('posts','App\Http\Controllers\PostsController');
 Route::resource('latest', 'App\Http\Controllers\LatestController');
+
+
+
+Route::get('/complaint-form',IndexComplaint::class)->name('index.complaint');
