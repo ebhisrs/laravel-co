@@ -2,14 +2,20 @@
 
 namespace App\Http\Livewire\Complaint;
 
+use Carbon\Carbon;
 use Livewire\Component;
 use App\Mail\SampleMail;
 use App\Models\Complaint;
+use Livewire\WithFileUploads;
 use Illuminate\Support\Facades\Mail;
 
 class Index extends Component
 {
+    use WithFileUploads ;
+
     public Complaint $complaint;
+
+    public $file , $fileName;
 
     public function mount(){
         $this->complaint = new complaint();
@@ -38,6 +44,13 @@ class Index extends Component
     public function CreateComplaint()
     {
         $this->validate();
+
+        if($this->file){
+            // $nameOfFile = $this->complaint['name']."_".Carbon::now();
+            $nameOfFile = $this->file->store('files', 'files');
+            // dd($nameOfFile);
+        }
+        // dd($this->file);
         
         Mail::to('admin@gmail.com')->send(new SampleMail($this->complaint));
         

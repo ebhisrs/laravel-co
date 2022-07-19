@@ -170,7 +170,15 @@
             </div>
 
             
-            <button type="submit" class="btn btn-primary ">Submit </button>
+            <div class="form-group mb-5">
+                <label for="exampleInputFile">File:</label>
+                <input type="file" class="form-control" id="exampleInputFile" wire:model="file">
+                @error('name') <span class="text-danger">{{ $message }}</span> @enderror
+            </div>
+            
+
+            
+            <button type="submit" class="btn btn-primary ">Submit <i class="bi bi-arrow-right"></i></button>
           </form>
     </div>
 </main>
