@@ -56,4 +56,7 @@ class PagesController extends Controller
     public function calculator(){
         return view('pages.calculator');
     }
+    public function vps(){
+        return view('pages.vps');
+    }
 }

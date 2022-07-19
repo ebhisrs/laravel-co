@@ -90,8 +90,8 @@
   <div
     class="col-lg-12 align-items-stretch order-1 order-lg-2 img"
     style="
-      background-image: url('img/plateform.png');
-      height: 500px;
+      background-image: url('img/macbook_3.png');
+      height: 300px;
     "
     data-aos="zoom-in"
     data-aos-delay="150"
@@ -124,7 +124,7 @@
           </div>
           <div class="col-lg-6 content order-last  order-lg-first paddingtl-mine130">
           
-            <img src="img/happy-client.png" class="img-fluid" width="150" height="150" alt="">
+            <img src="img/smile.png" class="img-fluid" width="150" height="150" alt="">
             <a href="https://www.youtube.com/" class="glightbox play-btn"></a>
           </div>
         </div>

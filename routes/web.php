@@ -28,6 +28,7 @@ Route::get('/accounts', 'App\Http\Controllers\PagesController@accounts');
 Route::get('/open-a-corporate-account', 'App\Http\Controllers\PagesController@openaccount');
 Route::get('/gold', 'App\Http\Controllers\PagesController@gold');
 Route::get('/calculator', 'App\Http\Controllers\PagesController@calculator');
+Route::get('/vps', 'App\Http\Controllers\PagesController@vps');
 
 
 Route::get('/contact-us', [ContactController::class,'contact']);
