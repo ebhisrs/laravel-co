@@ -7,6 +7,7 @@ use App\Http\Livewire\Complaint\Index as IndexComplaint;
 use App\Http\Livewire\Contactus\Index as IndexContactus;
 use App\Http\Livewire\Partnerships\Index as IndexPartnerships;
 use App\Http\Livewire\Movingmarkets\Index as IndexMovingmarkets;
+use App\Http\Livewire\Educationalvideos\Index as IndexEducationalvideos;
 
 /*
 |--------------------------------------------------------------------------
@@ -54,4 +55,5 @@ Route::resource('latest', 'App\Http\Controllers\LatestController');
 Route::get('/complaint-form',IndexComplaint::class)->name('index.complaint');
 Route::get('/partnerships',IndexPartnerships::class)->name('index.partnerships');
 Route::get('/whats-moving-markets',IndexMovingmarkets::class)->name('index.movingmarkets');
+Route::get('/forex-trading-educational-videos',IndexEducationalvideos::class)->name('index.educationalvideos');
 // Route::get('/contact-us',IndexContactus::class)->name('index.contactus');
