@@ -150,10 +150,7 @@
       
             </div>
       
-          </section><!-- End Contact Section -->
-      
-        
-  
+          </section><!-- End Contact Section -->  
       </div>
     </div>
   </section>
