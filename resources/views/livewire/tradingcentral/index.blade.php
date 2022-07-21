@@ -1,11 +1,10 @@
 @section('head')
   <link href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.3.1/swiper-bundle.css" rel="stylesheet">
-  <style>
-    
-  </style>
+  <link href="trading-central/trading-central.css" rel="stylesheet">
 @endsection
 @section('script')
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.3.1/swiper-bundle.min.js"></script>
+  <script src="trading-central/trading-central.js"></script>
 @endsection
 
 
@@ -107,137 +106,85 @@
     
     </section>
 
-    <section>
+    <section id="portfolio" class="portfolio">
       <div class="container">
+        <h3 class="text-center mb-4">Exclusive Benefits From FXDD Free of Charge</h3>
         <div class="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="https://images.ctfassets.net/l6zxjz2hffuo/7hbkiZtECRfViuJkpdfKxg/208861ffd7bdc0ff0c89f9925618dc5c/1.jpg?w=100" class="img-fluid" alt="">
+              <img src="https://images.ctfassets.net/l6zxjz2hffuo/7hbkiZtECRfViuJkpdfKxg/208861ffd7bdc0ff0c89f9925618dc5c/1.jpg?w=100" class="img-fluid" width="416px" height="212px" alt="">
               <div class="portfolio-info">
-                <h4>App 1</h4>
-                <p>App</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="App 1"><i class="bi bi-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
-                </div>
+                <h4>Featured Tradable Ideas</h4>
+                <p>Investment insight you can count on. Click here to login to Client Portal to access the service.</p>
+                
               </div>
             </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Web 3</h4>
-                <p>Web</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Web 3"><i class="bi bi-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
-                </div>
-              </div>
-            </div>
+            <h5 class="text-center mt-3">Featured Tradable Ideas</h5>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+              <img src="https://images.ctfassets.net/l6zxjz2hffuo/4giRFSkFlEfsZ8INTlyIbb/e9a4d7653350500f8b87f141f28f7bd9/2.jpg?w=100" class="img-fluid" width="416px" height="212px" alt="">
               <div class="portfolio-info">
-                <h4>App 2</h4>
-                <p>App</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="App 2"><i class="bi bi-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
-                </div>
+                <h4>Expert Analyst Views</h4>
+                <p>Empower investors with an immediate trading plan. Click here Login to Client Portal to access the service.</p>
+                
               </div>
             </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Card 2</h4>
-                <p>Card</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Card 2"><i class="bi bi-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Web 2</h4>
-                <p>Web</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Web 2"><i class="bi bi-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
-                </div>
-              </div>
-            </div>
+            <h5 class="text-center mt-3">Expert Analyst Views</h5>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+              <img src="https://images.ctfassets.net/l6zxjz2hffuo/5vuDWZXDvtZ5vKCzPHDRfj/6338f203ade919fe3f39ceb7b4830ea0/3.jpg?w=100" class="img-fluid" width="416px" height="212px" alt="">
               <div class="portfolio-info">
-                <h4>App 3</h4>
-                <p>App</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="App 3"><i class="bi bi-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
-                </div>
+                <h4>Daily Newsletters</h4>
+                <p>The investment insight you need, right in your inbox. Open an FXDD Trading account and fund it with $200 or more and receive the daily emails automatically.</p>
+                
               </div>
             </div>
+            <h5 class="text-center mt-3">Daily Newsletters</h5>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
+              <img src="https://images.ctfassets.net/l6zxjz2hffuo/5V3M7VrnpIKNbNnXTmwAQl/495e63b5d8c416c90eaa244d7a59db39/4.jpg?w=100" class="img-fluid" width="416px" height="212px" alt="">
               <div class="portfolio-info">
-                <h4>Card 1</h4>
-                <p>Card</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Card 1"><i class="bi bi-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
-                </div>
+                <h4>WebTV Daily Coverage</h4>
+                <p>Market news from the floor of the NYSE. Click here to login to Client Portal and access the service.</p>
+                
               </div>
             </div>
+            <h5 class="text-center mt-3">WebTV Daily Coverage</h5>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
+              <img src="https://images.ctfassets.net/l6zxjz2hffuo/5Shao8iACO9Yqfqqre6G1A/3ef55f9045cbc7865c091f8468457ac9/5.jpg?w=100" class="img-fluid" width="416px" height="212px" alt="">
               <div class="portfolio-info">
-                <h4>Card 3</h4>
-                <p>Card</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Card 3"><i class="bi bi-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
-                </div>
+                <h4>Daily News Brief</h4>
+                <p>A concise and up to the point recap of all the major daily financial news. Click here to login to Client Portal and access the service.</p>
+                
               </div>
             </div>
+            <h5 class="text-center mt-3">Daily News Brief</h5>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
+              <img src="https://images.ctfassets.net/l6zxjz2hffuo/3uA84fIyqJY1Ucsh9SeDRW/643cdc7fa936e5630b67475569f4b088/6.png?w=100" class="img-fluid" width="416px" height="212px" alt="">
               <div class="portfolio-info">
-                <h4>Web 3</h4>
-                <p>Web</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Web 3"><i class="bi bi-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
-                </div>
+                <h4>MT4 Indictaor</h4>
+                <p>Get up-to-date technical analysis within your MT4 platform. Download our MT4 Plugin and enjoy this powerful feature.</p>
+                
               </div>
             </div>
+            <h5 class="text-center mt-3">MT4 Indictaor</h5>
           </div>
 
         </div>
       </div>
     </section>
+    
 </div>
