@@ -19,7 +19,12 @@
             @endforeach       
         @else
             <p class="mt-5">There is no tutorial video</p>
-        @endif
+        @endif 
+
+        <div class="col-12 border p-3">
+            <h4 class="mt-3 mb-3">Video Disclaimer:</h4>
+            <p>These videos are solely for informational purposes and should not be regarded as advice or an invitation to trade. Application of the techniques, ideas, and suggestions presented is done at the viewer’s sole discretion and risk. The thoughts and opinions expressed here are solely those of the writer and do not necessarily reflect the view of ActivTrades Plc.</p>
+        </div>
 
     </div>
     @if($videos->count())
