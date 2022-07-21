@@ -71,12 +71,12 @@
         <ul>
           <li class="dropdown"><a href="#"><span>COMPANY</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
-              <li><a href="#">About us</a></li>
-              <li><a href="#">FXDD Latest News</a></li>
-              <li><a href="#">Contact us</a></li>
-              <li><a href="#">Careers</a></li>
-              <li><a href="#">Complaint Form</a></li>
-              <li><a href="#">Documents, Policies and
+              <li><a href="/fxdd/public/about">About us</a></li>
+              <li><a href="/fxdd/public/latest">FXDD Latest News</a></li>
+              <li><a href="/fxdd/public/contact">Contact us</a></li>
+              <li><a href="/fxdd/public/about">Careers</a></li>
+              <li><a href="/fxdd/public/complaint-form">Complaint Form</a></li>
+              <li><a href="/fxdd/public/account-forms">Documents, Policies and
                 forms</a></li>
                 <li><a href="#">Promotions</a></li>
               
@@ -84,13 +84,13 @@
           </li>
           <li class="dropdown"><a href="#"><span>MARKETS</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
-              <li><a href="#">Forex</a></li>
-              <li><a href="#">Stocks</a></li>
-              <li><a href="#">Indices</a></li>
-              <li><a href="#">Metals</a></li>
-              <li><a href="#">Energies:</a></li>
-              <li><a href="#">Asset list</a></li>
-                <li><a href="#">Cryptocurrency</a></li>
+              <li><a href="/fxdd/public/trading#forex">Forex</a></li>
+              <li><a href="/fxdd/public/trading#stocks">Stocks</a></li>
+              <li><a href="/fxdd/public/trading#indices">Indices</a></li>
+              <li><a href="/fxdd/public/trading#metals">Metals</a></li>
+              <li><a href="/fxdd/public/trading#energies">Energies:</a></li>
+              <li><a href="/fxdd/public/trading#div-id">Asset list</a></li>
+                <li><a href="/fxdd/public/trading#cryptocurrency">Cryptocurrency</a></li>
               
             </ul>
           </li>
@@ -99,7 +99,8 @@
             <ul>
               <li class="dropdown"><a href="#"><span>Accounts</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
                 <ul>
-                  <li><a href="#">Accounts Overview</a></li>
+                  <li><a href="/fxdd/public/accounts">Accounts Overview</a></li>
+                  <li><a href="/fxdd/public/gold">Gold Account</a></li>
                 </ul>
               </li>
               <li class="dropdown"><a href="#"><span>Tools</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
@@ -110,7 +111,30 @@
               </li>
               <li class="dropdown"><a href="#"><span>Tools and FAQ</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
                 <ul>
-                  <li><a href="#">Online Tools</a></li>
+                  <li><a href="/fxdd/public/calculator">Online Tools</a></li>
+                  <li class="dropdown"><a href="/fxdd/public/faq">FAQ and Glossary <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+                  <ul>
+                  <li><a href="/fxdd/public/faq#headingOne">About FXDDMENA </a></li>
+                  <li><a href="/fxdd/public/faq#heading13">Demo Trading Account </a></li>
+                  <li><a href="/fxdd/public/faq#heading23">Live Trading Account </a></li>
+                  <li><a href="/fxdd/public/faq#heading32">Deposits and Withdrawals </a></li>
+                  <li><a href="/fxdd/public/faq#heading40">Trading with FXDDMENA </a></li>
+                  <li><a href="/fxdd/public/faq#heading51">Telephone Access </a></li>
+                  <li><a href="/fxdd/public/faq#heading52">MetaTrader</a></li>
+                  <li><a href="/fxdd/public/faq#heading83">Pricing and slippage </a></li>
+                  <li><a href="/fxdd/public/faq#heading84">complaints </a></li>
+                  <li><a href="/fxdd/public/glossary">Glossary </a></li>
+                </ul>
+                </li>
+               
+                  <li class="dropdown"><a href="/fxdd/public/calculator">Market DATA <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+                  <ul>
+                  <li><a href="/fxdd/public/economic-calendar">Economic Calendar </a></li>
+                  <li><a href="/fxdd/public/faq#heading13">Metatrader 1-Minute Data</a></li>
+                  <li><a href="/fxdd/public/trading#div-id">Pricing / Swap Rates </a></li>
+                 
+                </ul>
+                 </li>
                 </ul>
               </li>
               <li class="dropdown"><a href="#"><span>Research and Analysis</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
@@ -128,7 +152,17 @@
              
             </ul>
           </li>
-          <li><a href="blog.html">PLATFORM</a></li>
+          <li class="dropdown"><a href="#"><span>PLATFORM</span><i class="bi bi-chevron-down dropdown-indicator"></i></a>
+          <ul>
+              <li><a href="#mt4">MetaTrader 4</a></li>
+              <li><a href="#mt5">MetaTrader 5</a></li>
+              <li><a href="#mobile">FXDDMENA Mobile</a></li>
+              <li><a href="#webtrader">Web Trader</a></li>
+              <li><a href="#compare">Compare Platforms </a></li>
+              <li><a href="#download">Download Center </a></li>
+
+            </ul>
+        </li>
 
           <li class="dropdown"><a href="#"><span>PARTHNERSHIPS</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>

@@ -103,7 +103,7 @@
 </div>
 <div id="hero">
 <div class="row justify-content-center">
-<div class="col-lg-6 text-center">
+<div class="col-lg-6 text-center pt-3">
 <a class="btn btn-outline-warning" href="#" role="button">Compare Platforms</a></div></div></div>
 
 </div>

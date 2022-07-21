@@ -29,6 +29,17 @@ Route::get('/open-a-corporate-account', 'App\Http\Controllers\PagesController@op
 Route::get('/gold', 'App\Http\Controllers\PagesController@gold');
 Route::get('/calculator', 'App\Http\Controllers\PagesController@calculator');
 Route::get('/vps', 'App\Http\Controllers\PagesController@vps');
+Route::get('/trading-guides', 'App\Http\Controllers\PagesController@tradingguides');
+Route::get('/metatrader4', 'App\Http\Controllers\PagesController@metatrader4');
+Route::get('/metatrader5', 'App\Http\Controllers\PagesController@metatrader5');
+Route::get('/webtrader', 'App\Http\Controllers\PagesController@webtrader');
+Route::get('/mirror-trader', 'App\Http\Controllers\PagesController@mirrortrader');
+Route::get('/fxddmena-mobile', 'App\Http\Controllers\PagesController@fxddmenamobile');
+Route::get('/faq', 'App\Http\Controllers\PagesController@faq');
+Route::get('/glossary', 'App\Http\Controllers\PagesController@glossary');
+Route::get('/economic-calendar', 'App\Http\Controllers\PagesController@economiccalendar');
+Route::get('/mt4-one-minute-data', 'App\Http\Controllers\PagesController@mt4one');
+Route::get('/platforms', 'App\Http\Controllers\PagesController@platforms');
 
 
 Route::get('/contact-us', [ContactController::class,'contact']);

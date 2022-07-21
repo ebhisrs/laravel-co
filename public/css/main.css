@@ -160,6 +160,38 @@ section.services2 {
     padding-right: 300px;
 }
 
+#div-id {
+    width: 100%;
+    height: 5563px;
+    position: relative;
+    overflow: hidden;
+}
+
+#iframe-id {
+    position: absolute;
+    top: -2000px;
+    left: 0;
+    width: 100%;
+    height: 200%;
+}
+@media (min-width: 667px) {
+    #iframe-id {
+        top: -3806px;
+    }
+}
+
+img.d-block.mx-auto.myclass {
+    margin-bottom: -110px;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #ffffff;
+    background-color: #000000;
+}
+
+
+
+
 /* Fonts */
 :root {
     --font-default: Open Sans, system-ui, -apple-system, Segoe UI, Roboto,
@@ -2495,6 +2527,232 @@ section {
         opacity: 0;
     }
 }
+
+/*--------------------------------------------------------------
+#heroabout85 Section
+--------------------------------------------------------------*/
+#heroabout85 {
+    width: 100%;
+    height: 75vh;
+    background: url("../img/broker-metatrader-4-1.jpg") top center no-repeat;
+    background-size: contain;
+    position: relative;
+}
+#heroabout85:before {
+    content: "";
+    background: rgba(40 33 0 / 60%);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#heroabout85 .container {
+    position: relative;
+}
+#heroabout85 h1 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+}
+#heroabout85 h1 span {
+    color: #106eea;
+}
+#heroabout85 h2 {
+    color: #555555;
+    margin: 5px 0 30px 0;
+    font-size: 24px;
+    font-weight: 400;
+}
+#heroabout85 .btn-get-started {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 28px;
+    border-radius: 4px;
+    transition: 0.5s;
+    color: #fff;
+    background: #106eea;
+}
+#heroabout85 .btn-get-started:hover {
+    background: #247cf0;
+}
+#heroabout85 .btn-watch-video {
+    font-size: 16px;
+    transition: 0.5s;
+    margin-left: 25px;
+    color: #ffffff;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+#heroabout85 .btn-watch-video i {
+    color: #106eea;
+    font-size: 32px;
+    transition: 0.3s;
+    line-height: 0;
+    margin-right: 8px;
+}
+#heroabout85 .btn-watch-video:hover {
+    color: #106eea;
+}
+#heroabout85 .btn-watch-video:hover i {
+    color: #3b8af2;
+}
+@media (min-width: 1024px) {
+    #heroabout85 {
+        background-attachment: fixed;
+    }
+}
+@media (max-width: 768px) {
+    #heroabout85 {
+        height: 100vh;
+    }
+    #heroabout85 h1 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    #heroabout85 h2 {
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 30px;
+    }
+    #heroabout85 .btn-get-started,
+    #heroabout85 .btn-watch-video {
+        font-size: 13px;
+    }
+    .paddingme {
+        padding-left: unset;
+        padding-right: unset;
+    }
+}
+@media (max-height: 500px) {
+    #heroabout85 {
+        height: 120vh;
+    }
+    .paddingme {
+        padding-left: unset;
+        padding-right: unset;
+    }
+}
+
+/*--------------------------------------------------------------
+#heroabout86 Section
+--------------------------------------------------------------*/
+#heroabout86 {
+    width: 100%;
+    height: 75vh;
+    background: url("../img/offering.jpg") top center no-repeat;
+    background-size: contain;
+    position: relative;
+}
+#heroabout86:before {
+    content: "";
+    background: rgba(40 33 0 / 60%);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#heroabout86 .container {
+    position: relative;
+}
+#heroabout86 h1 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+}
+#heroabout86 h1 span {
+    color: #106eea;
+}
+#heroabout86 h2 {
+    color: #555555;
+    margin: 5px 0 30px 0;
+    font-size: 24px;
+    font-weight: 400;
+}
+#heroabout86 .btn-get-started {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 28px;
+    border-radius: 4px;
+    transition: 0.5s;
+    color: #fff;
+    background: #106eea;
+}
+#heroabout86 .btn-get-started:hover {
+    background: #247cf0;
+}
+#heroabout86 .btn-watch-video {
+    font-size: 16px;
+    transition: 0.5s;
+    margin-left: 25px;
+    color: #ffffff;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+#heroabout86 .btn-watch-video i {
+    color: #106eea;
+    font-size: 32px;
+    transition: 0.3s;
+    line-height: 0;
+    margin-right: 8px;
+}
+#heroabout86 .btn-watch-video:hover {
+    color: #106eea;
+}
+#heroabout86 .btn-watch-video:hover i {
+    color: #3b8af2;
+}
+@media (min-width: 1024px) {
+    #heroabout86 {
+        background-attachment: fixed;
+    }
+}
+@media (max-width: 768px) {
+    #heroabout86 {
+        height: 100vh;
+    }
+    #heroabout86 h1 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    #heroabout86 h2 {
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 30px;
+    }
+    #heroabout86 .btn-get-started,
+    #heroabout86 .btn-watch-video {
+        font-size: 13px;
+    }
+}
+@media (max-height: 500px) {
+    #heroabout86 {
+        height: 120vh;
+    }
+    .heroabout86 {
+        padding-left: unset;
+        padding-right: unset;
+    }
+}
 /*--------------------------------------------------------------
 # Hero-about Section
 --------------------------------------------------------------*/
@@ -4581,6 +4839,21 @@ section {
         font-family: "Poppins", sans-serif;
         width: unset;
     }
+
+    #div-id {
+        /* border: 2px solid black; */
+        width: 100%;
+        height: 5732px;
+        position: relative;
+        overflow: hidden;
+    }
+    #iframe-id {
+        position: absolute;
+        top: -3584px;
+        left: 0;
+        width: 100%;
+        height: 275%;
+    }
 }
 @media (max-height: 500px) {
     #heroabout18 {
@@ -4593,6 +4866,21 @@ section {
         color: #ffffff;
         font-family: "Poppins", sans-serif;
         width: unset;
+    }
+
+    #div-id {
+        /* border: 2px solid black; */
+        width: 100%;
+        height: 5732px;
+        position: relative;
+        overflow: hidden;
+    }
+    #iframe-id {
+        position: absolute;
+        top: -3584px;
+        left: 0;
+        width: 100%;
+        height: 275%;
     }
 }
 
@@ -4980,6 +5268,267 @@ section {
         height: 120vh;
     }
     #heroabout21 p {
+        margin: 0;
+        font-size: 15px;
+        line-height: 56px;
+        color: #ffffff;
+        font-family: "Poppins", sans-serif;
+        width: unset;
+    }
+}
+
+/*--------------------------------------------------------------
+# Heroabout40 Section
+--------------------------------------------------------------*/
+#heroabout40 {
+    width: 100%;
+    height: 75vh;
+    background: url("../img/macbook_3.png") top left;
+    background-size: cover;
+    position: relative;
+}
+#heroabout40:before {
+    content: "";
+    background: rgba(40 33 0 / 60%);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#heroabout40 .container {
+    position: relative;
+}
+#heroabout40 h1 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+}
+#heroabout40 p {
+    margin: 0;
+    font-size: 15px;
+    line-height: 56px;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    width: 50%;
+}
+#heroabout40 h1 span {
+    color: #106eea;
+}
+#heroabout40 h2 {
+    color: #555555;
+    margin: 5px 0 30px 0;
+    font-size: 24px;
+    font-weight: 400;
+}
+#heroabout40 .btn-get-started {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 28px;
+    border-radius: 4px;
+    transition: 0.5s;
+    color: #fff;
+    background: #106eea;
+}
+#heroabout40 .btn-get-started:hover {
+    background: #247cf0;
+}
+#heroabout40 .btn-watch-video {
+    font-size: 16px;
+    transition: 0.5s;
+    margin-left: 25px;
+    color: #ffffff;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+#heroabout40 .btn-watch-video i {
+    color: #106eea;
+    font-size: 32px;
+    transition: 0.3s;
+    line-height: 0;
+    margin-right: 8px;
+}
+#heroabout40 .btn-watch-video:hover {
+    color: #106eea;
+}
+#heroabout40 .btn-watch-video:hover i {
+    color: #3b8af2;
+}
+@media (min-width: 1024px) {
+    #heroabout40 {
+        background-attachment: fixed;
+    }
+}
+@media (max-width: 768px) {
+    #heroabout40 {
+        height: 100vh;
+    }
+    #heroabout40 h1 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    #heroabout40 h2 {
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 30px;
+    }
+    #heroabout40 .btn-get-started,
+    #heroabout40 .btn-watch-video {
+        font-size: 13px;
+    }
+    #heroabout40 p {
+        margin: 0;
+        font-size: 15px;
+        line-height: 56px;
+        color: #ffffff;
+        font-family: "Poppins", sans-serif;
+        width: unset;
+    }
+}
+@media (max-height: 500px) {
+    #heroabout40 {
+        height: 120vh;
+    }
+    #heroabout40 p {
+        margin: 0;
+        font-size: 15px;
+        line-height: 56px;
+        color: #ffffff;
+        font-family: "Poppins", sans-serif;
+        width: unset;
+    }
+}
+/*--------------------------------------------------------------
+# Heroabout41 Section
+--------------------------------------------------------------*/
+#heroabout41 {
+    width: 100%;
+    height: 75vh;
+    background: url("../img/Asset_1_2x.png") top left;
+    background-size: cover;
+    position: relative;
+}
+#heroabout41:before {
+    content: "";
+    background: rgba(40 33 0 / 60%);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#heroabout41 .container {
+    position: relative;
+}
+#heroabout41 h1 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+}
+#heroabout41 p {
+    margin: 0;
+    font-size: 15px;
+    line-height: 56px;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    width: 50%;
+}
+#heroabout41 h1 span {
+    color: #106eea;
+}
+#heroabout41 h2 {
+    color: #555555;
+    margin: 5px 0 30px 0;
+    font-size: 24px;
+    font-weight: 400;
+}
+#heroabout41 .btn-get-started {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 28px;
+    border-radius: 4px;
+    transition: 0.5s;
+    color: #fff;
+    background: #106eea;
+}
+#heroabout41 .btn-get-started:hover {
+    background: #247cf0;
+}
+#heroabout41 .btn-watch-video {
+    font-size: 16px;
+    transition: 0.5s;
+    margin-left: 25px;
+    color: #ffffff;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+#heroabout41 .btn-watch-video i {
+    color: #106eea;
+    font-size: 32px;
+    transition: 0.3s;
+    line-height: 0;
+    margin-right: 8px;
+}
+#heroabout41 .btn-watch-video:hover {
+    color: #106eea;
+}
+#heroabout41 .btn-watch-video:hover i {
+    color: #3b8af2;
+}
+@media (min-width: 1024px) {
+    #heroabout41 {
+        background-attachment: fixed;
+    }
+}
+@media (max-width: 768px) {
+    #heroabout41 {
+        height: 100vh;
+    }
+    #heroabout41 h1 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    #heroabout41 h2 {
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 30px;
+    }
+    #heroabout41 .btn-get-started,
+    #heroabout41 .btn-watch-video {
+        font-size: 13px;
+    }
+    #heroabout41 p {
+        margin: 0;
+        font-size: 15px;
+        line-height: 56px;
+        color: #ffffff;
+        font-family: "Poppins", sans-serif;
+        width: unset;
+    }
+}
+@media (max-height: 500px) {
+    #heroabout41 {
+        height: 120vh;
+    }
+    #heroabout41 p {
         margin: 0;
         font-size: 15px;
         line-height: 56px;

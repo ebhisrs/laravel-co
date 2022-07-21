@@ -58,5 +58,39 @@ class PagesController extends Controller
     }
     public function vps(){
         return view('pages.vps');
+    }   
+     public function tradingguides(){
+        return view('pages.trading-guides');
+    }
+    public function metatrader4(){
+        return view('pages.metatrader4');
+    }
+    public function metatrader5(){
+        return view('pages.metatrader5');
+    }
+    public function webtrader(){
+        return view('pages.webtrader');
+    }
+    public function mirrortrader(){
+        return view('pages.mirror-trader');
+    }
+
+    public function fxddmenamobile(){
+        return view('pages.fxddmena-mobile');
+    }
+    public function faq(){
+        return view('pages.faq');
+    }
+    public function glossary(){
+        return view('pages.glossary');
+    }
+    public function economiccalendar(){
+        return view('pages.economic-calendar');
+    }
+    public function mt4one(){
+        return view('pages.mt4-one-minute-data');
+    }
+    public function platforms(){
+        return view('pages.platforms');
     }
 }

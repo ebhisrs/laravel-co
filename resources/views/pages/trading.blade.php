@@ -2,7 +2,7 @@
 @section('content')
 <!--  Hero -->
 <section id="heroabout10" class="d-flex align-items-center">
-    <div class="container" data-aos="zoom-out" data-aos-delay="100">
+    <div id="forex" class="container" data-aos="zoom-out" data-aos-delay="100">
       <h1>Forex Pairs
  <span>
 </span></h1>
@@ -18,7 +18,7 @@
   <div class="b-example-divider"></div>
   <section id="heroabout11" class="d-flex align-items-center ">
     <div class="container" data-aos="zoom-out" data-aos-delay="100">
-    <div class="row gy-4">
+    <div id="metals" class="row gy-4">
           <div class="col-lg-6 position-relative align-self-start order-lg-last order-first padding-mine100" style="padding-top:-20px;">
           <h3>Metals</h3>
             <p>
@@ -48,7 +48,7 @@
   <div class="b-example-divider"></div>
   <section id="heroabout12" class="d-flex align-items-center ">
     <div class="container" data-aos="zoom-out" data-aos-delay="100">
-    <div class="row gy-4">
+    <div id="energies" class="row gy-4">
           <div class="col-lg-6 position-relative align-self-start order-lg-last order-first padding-mine100" style="padding-top:-20px;">
           <h3>Energies
 </h3>
@@ -76,7 +76,7 @@
   <div class="b-example-divider"></div>
   <section id="heroabout13" class="d-flex align-items-center ">
     <div class="container" data-aos="zoom-out" data-aos-delay="100">
-    <div class="row gy-4">
+    <div id="indices" class="row gy-4">
           <div class="col-lg-6 position-relative padding-mine100" style="padding-top:-20px;">
           <h3>Indices
 </h3>
@@ -102,11 +102,9 @@
   <div class="b-example-divider"></div>
   <section id="heroabout14" class="d-flex align-items-center ">
     <div class="container" data-aos="zoom-out" data-aos-delay="100">
-    <div class="row gy-4">
+    <div id="cryptocurrency" class="row gy-4">
           <div class="col-lg-6 position-relative align-self-start order-lg-last order-first padding-mine100" style="padding-top:-20px;">
-          <h3>Cryptocurrencies
-
-</h3>
+          <h3>Cryptocurrencies</h3>
             <p>
             At FXDD we are committed to providing a single point of access to all global asset classes. As such, we have introduced cryptocurrency trading on MT4, MT5 and WebTrader. Now you can trade Bitcoin, Litecoin and Ethereum 24/5 with FXDD from a single account utilizing the same margin in your account. The unique nature of Cryptos as well as the vast growing global interest in this asset class is sure to grow in the near future. That growth is set to spark volatility which will provide ample opportunities for all traders.
 </p>
@@ -128,7 +126,7 @@
   <div class="b-example-divider"></div>
   <section id="heroabout15" class="d-flex align-items-center ">
     <div class="container" data-aos="zoom-out" data-aos-delay="100">
-    <div class="row gy-4">
+    <div id="stocks" class="row gy-4">
           <div class="col-lg-6 position-relative padding-mine100" style="padding-top:-20px;">
           <h3>Stocks
 </h3>
@@ -156,6 +154,10 @@
     </div>
   </section><!-- End Hero -->
 
+
+<div id="div-id">
+ <iframe src="https://www.fxddtrading.com/bm/en/trading/offering" id="iframe-id" scrolling="no"></iframe>
+</div>
 
 
 @endsection

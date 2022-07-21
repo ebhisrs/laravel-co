@@ -85,7 +85,7 @@
       </div>
     </div>
     <div class="d-grid gap-2 d-md-flex justify-content-md-center">
-          <button type="button" class="btn btn-outline-warning btn-lg px-4 me-md-2">View Our Spreads</button>
+          <a href="http://localhost/fxdd/public/trading#div-id" role="button" class="btn btn-outline-warning btn-lg px-4 me-md-2">View Our Spreads</a>
         </div>
   </div>
 
@@ -96,7 +96,7 @@
         <p class="fs-5 mb-4 text-light">Don't know what to choose? Have a quick chat with our award winning customer support.
 
         <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-          <button type="button" class="btn btn-outline-light btn-lg px-4 me-sm-3 fw-bold">Platform Details</button>
+          <a href="/fxdd/public/contact" role="button" class="btn btn-outline-light btn-lg px-4 me-sm-3 fw-bold">Let Us Help You</a>
         </div>
       </div>
     </div>
@@ -130,7 +130,7 @@ Instant orders with "Fill or Kill" execution.
 
 </ul>
 <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-          <button type="button" class="btn btn-outline-warning btn-lg px-4 me-sm-3 fw-bold">Let Us Help You</button>
+          <a href="/fxdd/public/metatrader4" role="button" class="btn btn-outline-warning btn-lg px-4 me-sm-3 fw-bold">Platform Details</a>
         </div>
       </div>
     </div>
@@ -166,7 +166,7 @@ Built-In Marketplace.
 
 </ul>
 <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-          <button type="button" class="btn btn-outline-warning btn-lg px-4 me-sm-3 fw-bold">Platform Details</button>
+<a href="/fxdd/public/metatrader5" role="button" class="btn btn-outline-warning btn-lg px-4 me-sm-3 fw-bold">Platform Details</a>
         </div>
       </div>
     </div>
@@ -205,8 +205,9 @@ Built-In Marketplace.
 </li>
 
 </ul>
+<br><br><br><br>
 <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-          <button type="button" class="btn btn-outline-warning btn-lg px-4 me-sm-3 fw-bold">Let Us Help You</button>
+<a href="/fxdd/public/webtrader" role="button" class="btn btn-outline-warning btn-lg px-4 me-sm-3 fw-bold">Platform Details</a>
         </div>
       </div>
     </div>
@@ -238,7 +239,7 @@ Instant orders with "Fill or Kill" execution.
 
 </ul>
 <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-          <button type="button" class="btn btn-outline-warning btn-lg px-4 me-sm-3 fw-bold">Let Us Help You</button>
+<a href="/fxdd/public/mirror-trader" role="button" class="btn btn-outline-warning btn-lg px-4 me-sm-3 fw-bold">Platform Details</a>
         </div>
       </div>
     </div>
@@ -287,7 +288,7 @@ Manage Alerts on Charts.
 </div>
       <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
       
-        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Platform Details</button>
+      <a href="/fxdd/public/fxddmena-mobile" role="button" class="btn btn-outline-secondary btn-lg px-4">Platform Details</a>
       </div>
     </div>
   
