@@ -3,7 +3,7 @@
         <div class="col-lg-10 entries">
             @if($webinars->count())    
                 @foreach ($webinars as $webinar)    
-                    <div class="mb-3">
+                    <div class="mb-3 mt-1">
                         <h3>{{$webinar->title}}</h3>
                         <p class="mb-3">{{$webinar->date}}</p>
                         <div style="background-color: #f2f3f3" class="mb-1">

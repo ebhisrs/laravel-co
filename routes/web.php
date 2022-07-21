@@ -4,11 +4,11 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContactController;
 
 use App\Http\Livewire\Complaint\Index as IndexComplaint;
-use App\Http\Livewire\Contactus\Index as IndexContactus;
 use App\Http\Livewire\Partnerships\Index as IndexPartnerships;
 use App\Http\Livewire\Movingmarkets\Index as IndexMovingmarkets;
 use App\Http\Livewire\Educationalvideos\Index as IndexEducationalvideos;
 use App\Http\Livewire\Webinar\Index as IndexWebinar;
+use App\Http\Livewire\Tradingcentral\Index as IndexTradingcentral;
 
 /*
 |--------------------------------------------------------------------------
@@ -58,5 +58,4 @@ Route::get('/partnerships',IndexPartnerships::class)->name('index.partnerships')
 Route::get('/whats-moving-markets',IndexMovingmarkets::class)->name('index.movingmarkets');
 Route::get('/forex-trading-educational-videos',IndexEducationalvideos::class)->name('index.educationalvideos');
 Route::get('/webinars',IndexWebinar::class)->name('index.webinar');
-
-// Route::get('/contact-us',IndexContactus::class)->name('index.contactus');
+Route::get('/tradingCentral',IndexTradingcentral::class)->name('index.tradingcentral');
