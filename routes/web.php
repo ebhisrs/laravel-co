@@ -9,6 +9,8 @@ use App\Http\Livewire\Movingmarkets\Index as IndexMovingmarkets;
 use App\Http\Livewire\Educationalvideos\Index as IndexEducationalvideos;
 use App\Http\Livewire\Webinar\Index as IndexWebinar;
 use App\Http\Livewire\Tradingcentral\Index as IndexTradingcentral;
+use App\Http\Livewire\Referfriend\Index as IndexReferfriend;
+use App\Http\Livewire\Bonus\Index as IndexBonus;
 
 /*
 |--------------------------------------------------------------------------
@@ -59,3 +61,6 @@ Route::get('/whats-moving-markets',IndexMovingmarkets::class)->name('index.movin
 Route::get('/forex-trading-educational-videos',IndexEducationalvideos::class)->name('index.educationalvideos');
 Route::get('/webinars',IndexWebinar::class)->name('index.webinar');
 Route::get('/tradingCentral',IndexTradingcentral::class)->name('index.tradingcentral');
+Route::get('/refer-friend',IndexReferfriend::class)->name('index.referfriend');
+Route::get('/bonus-offerings',IndexBonus::class)->name('index.bonus');
+
