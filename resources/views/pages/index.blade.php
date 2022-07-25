@@ -74,7 +74,7 @@
 </section><!-- End Hero Section -->
 
 <main id="main">
-<!-- ======= Why Us Section ======= -->
+<!-- ======= Why Us Section ======= 
 <section id="why-us" class="why-us section-bg">
 <div class="container-fluid" data-aos="fade-up">
   <div class="row">
@@ -87,9 +87,9 @@
           <strong>Commission-free investing</strong>
         </h3>
      
-        <button type="button" class="btn btn-warning rounded-5">
+        <a href="/" role="button" class="btn btn-warning rounded-5">
           OPEN ACCOUNT
-        </button>
+</a>
        
       </div>
     </div>
@@ -198,7 +198,7 @@ transform: perspective(1000px) rotateX(-10deg) rotateY(10deg) rotateZ(2deg);
 <div class="hover-point"></div>
     <div
       class="col-lg-5 align-items-stretch order-1 order-lg-2 img box-contents" 
-      style="background-image: url('img/why-us.png')"
+      style="background-image: url('img/monitor.png')"
       data-aos="zoom-in"
       data-aos-delay="150"
 
@@ -210,6 +210,17 @@ transform: perspective(1000px) rotateX(-10deg) rotateY(10deg) rotateZ(2deg);
   </div>
 </div>
 </section>
+--------------->
+<!--  Hero -->
+<section id="heroabout88" class="d-flex align-items-center">
+    <div class="container" data-aos="zoom-out" data-aos-delay="100">
+      <h2> <strong>Commission-free investing</strong></h2>
+      
+      <div class="d-flex">
+        <a href="#about" style="--bs-btn-color: #ffffff!important;" class="btn btn-outline-warning btn-lg">Get Started</a>
+      </div>
+    </div>
+  </section><!-- End Hero -->
 <!-- End Why Us Section -->
 <!-- ======= Services Section ======= -->
 <section id="services" class="services">
@@ -275,7 +286,7 @@ transform: perspective(1000px) rotateX(-10deg) rotateY(10deg) rotateZ(2deg);
 </section>
 <!-- End Services Section -->
 <!-- ======= Services Section ======= -->
-<section id="services" class="services2 bg-darkmine">
+<section id="services" class="services2 bg-lessdark">
 <div class="container-fluid">
 <div class="section-title">
 
@@ -327,11 +338,12 @@ transform: perspective(1000px) rotateX(-10deg) rotateY(10deg) rotateZ(2deg);
 <section id="why-us" class="why-us section-bg">
 <div class="container-fluid" data-aos="fade-up">
 <div class="row">
+
   <div
     class="col-lg-12 align-items-stretch order-1 order-lg-2 img"
     style="
-      background-image: url('img/plateform.png');
-      height: 500px;
+      background-image: url('img/macbook_3.png');
+      height: 398px;
     "
     data-aos="zoom-in"
     data-aos-delay="150"
@@ -339,6 +351,19 @@ transform: perspective(1000px) rotateX(-10deg) rotateY(10deg) rotateZ(2deg);
     &nbsp;
     
   </div>
+  <div
+    class="col-lg-12 align-items-stretch order-1 order-lg-2 img my-5"
+    style="
+      background-image: url('img/plateform.png');
+      height: 120px;
+    "
+    data-aos="zoom-in"
+    data-aos-delay="150"
+  >
+    &nbsp;
+    
+  </div>
+
   
 </div>
 <div id="hero">
@@ -350,7 +375,7 @@ transform: perspective(1000px) rotateX(-10deg) rotateY(10deg) rotateZ(2deg);
 </section>
 <!-- End platform Section -->
 <!-- ======= deposit Section ======= -->
-<section id="clients" class="clients pt-5">
+<section id="clients" class="clients pt-5 bg-lessdark">
 
 <div class="container-fluid">
   <div class="section-title">
@@ -394,8 +419,8 @@ transform: perspective(1000px) rotateX(-10deg) rotateY(10deg) rotateZ(2deg);
   <p><a href="/blog" class="greyb-colormine">Forex 101</a></p>
   <p><a href="/blog">Start Learning <i class="fix-iconmine ri-arrow-right-fill"></i></a></p>
   </div>
-  <div class="col-4"><p class="text-sizemine2">Need help?</p><p >Visit our  <a style="color: #ffffff;" href="#">Help Centre</a><i class="fix-iconmine ri-arrow-right-fill"></i></p>
-  <p>Any questions? Feel free to <a href="mail:info@fxddmena.com" style="color: #ffffff;"><i class="fix-iconmine ri-mail-line"></i> Contact us</a>
+  <div class="col-4"><p class="text-sizemine2">Need help?</p><p >Visit our  <a style="color: #ffc732;" href="#">Help Centre</a><i class="fix-iconmine ri-arrow-right-fill"></i></p>
+  <p>Any questions? Feel free to <a href="mail:info@fxddmena.com" style="color: #ffc732;"><i class="fix-iconmine ri-mail-line"></i> Contact us</a>
   </p>
   <a class="btn btn-whitemine" href="#" role="button">Live Chat </a>
   <a class="btn btn-whitemine" href="#" role="button">Callback</a></div></div></div></div>

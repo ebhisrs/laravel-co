@@ -47,7 +47,7 @@
   <!-- ======= Header ======= -->
  
   <header id="header" class="header d-flex align-items-center">
-  <div class="container header1">
+  <div class="container header1 my-headermob">
     <div class="row">
       <div class="col-4"></div>
       <div class="col-8 d-flex flex-row-reverse gap-2">
@@ -61,8 +61,8 @@
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
       <a href="index.html" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1>FXDDMENA<span>.</span></h1>
+      <img src="img/LOGOFXDD.png" alt=""> 
+         <!--  <h1>FXDDMENA<span>.</span></h1>-->
       </a>
 
       <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
@@ -73,12 +73,12 @@
             <ul>
               <li><a href="/fxdd/public/about">About us</a></li>
               <li><a href="/fxdd/public/latest">FXDD Latest News</a></li>
-              <li><a href="/fxdd/public/contact">Contact us</a></li>
               <li><a href="/fxdd/public/about">Careers</a></li>
               <li><a href="/fxdd/public/complaint-form">Complaint Form</a></li>
               <li><a href="/fxdd/public/account-forms">Documents, Policies and
                 forms</a></li>
                 <li><a href="#">Promotions</a></li>
+                <li><a href="/fxdd/public/contact">Contact us</a></li>
               
             </ul>
           </li>
@@ -139,7 +139,9 @@
               </li>
               <li class="dropdown"><a href="#"><span>Research and Analysis</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
                 <ul>
-                  <li><a href="#">ITEM</a></li>
+                  <li><a href="#">What's Moving Markets?</a></li>
+                  <li><a href="/fxdd/public/daily-analysis">Daily Analysis</a></li>
+                  <li><a href="#">Trading Central</a></li>
                 </ul>
               </li>
         
@@ -154,12 +156,12 @@
           </li>
           <li class="dropdown"><a href="#"><span>PLATFORM</span><i class="bi bi-chevron-down dropdown-indicator"></i></a>
           <ul>
-              <li><a href="#mt4">MetaTrader 4</a></li>
-              <li><a href="#mt5">MetaTrader 5</a></li>
-              <li><a href="#mobile">FXDDMENA Mobile</a></li>
-              <li><a href="#webtrader">Web Trader</a></li>
-              <li><a href="#compare">Compare Platforms </a></li>
-              <li><a href="#download">Download Center </a></li>
+              <li><a href="/fxdd/public/platforms#mt4">MetaTrader 4</a></li>
+              <li><a href="/fxdd/public/platforms#mt5">MetaTrader 5</a></li>
+              <li><a href="/fxdd/public/platforms#mobile">FXDDMENA Mobile</a></li>
+              <li><a href="/fxdd/public/platforms#webtrader">Web Trader</a></li>
+              <li><a href="/fxdd/public/platforms#compare">Compare Platforms </a></li>
+              <li><a href="/fxdd/public/platforms#download">Download Center </a></li>
 
             </ul>
         </li>
@@ -179,10 +181,20 @@
                 </ul>
               </li>
              
-        
+          
             </ul>
           </li>
-
+          <div class="container header1 my-headerwin">
+    <div class="row">
+    
+      <div class="col-12 d-flex flex-row-reverse gap-2 d-ggrid">
+        <a class="btn button-mine1 btn-sm" href="#" role="button"> PAMM Login </a>
+        <a class="btn button-mine1 btn-sm" href="#" role="button"> Open Account </a>
+        <a class="btn button-mine1 btn-sm" href="#" role="button"> IB Login </a>
+        <a class="btn button-mine1 btn-sm" href="#" role="button"> Client Login </a>
+      </div>
+    </div>
+  </div></div>
         </ul>
         
       </nav><!-- .navbar -->

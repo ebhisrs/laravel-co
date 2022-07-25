@@ -11,7 +11,7 @@
 <p>With a close connection to geopolitical and other macro-economic events, as well as a wealth of technical strategies available, this is a market in which many opportunities abound.
 </p>
       <div class="d-flex">
-      <a href="/" role="button" class="btn btn-outline-light btn-lg">View List And Pricing</a>
+      <a href="/fxdd/public/trading#div-id" role="button" class="btn btn-outline-light btn-lg">View List And Pricing</a>
       </div>
     </div>
   </section><!-- End Hero -->
@@ -30,9 +30,9 @@
 
 <div class="grid-mine">
          
-<a href="/" role="button" class="btn btn-outline-light btn-lg">View Metals Details</a>
+<a href="/fxdd/public/metals" role="button" class="btn btn-outline-light btn-lg">View Metals Details</a>
 <a href="/" role="button" class="btn btn-outline-light btn-lg">View CFD Details (Copper)</a>
-<a href="/" role="button" class="btn btn-outline-light btn-lg">View List And Pricing</a>
+<a href="/fxdd/public/trading#div-id" role="button" class="btn btn-outline-light btn-lg">View List And Pricing</a>
 
       </div>
 
@@ -62,7 +62,7 @@
 <div class="grid-mine">
          
 <a href="/" role="button" class="btn btn-outline-light btn-lg">View CFD Details</a>
-<a href="/" role="button" class="btn btn-outline-light btn-lg">View List And Pricing</a>
+<a href="/fxdd/public/trading#div-id" role="button" class="btn btn-outline-light btn-lg">View List And Pricing</a>
 
       </div>
 
@@ -88,7 +88,7 @@
 <div class="grid-mine">
          
 <a href="/" role="button" class="btn btn-outline-light btn-lg">View CFD Details</a>
-<a href="/" role="button" class="btn btn-outline-light btn-lg">View List And Pricing</a>
+<a href="/fxdd/public/trading#div-id" role="button" class="btn btn-outline-light btn-lg">View List And Pricing</a>
 
       </div>
 
@@ -112,7 +112,7 @@
 <div class="grid-mine">
          
 <a href="/" role="button" class="btn btn-outline-light btn-lg">View Cryptocurrency Details</a>
-<a href="/" role="button" class="btn btn-outline-light btn-lg">View List And Pricing</a>
+<a href="/fxdd/public/trading#div-id" role="button" class="btn btn-outline-light btn-lg">View List And Pricing</a>
 
       </div>
 

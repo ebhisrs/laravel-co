@@ -40,6 +40,7 @@ Route::get('/glossary', 'App\Http\Controllers\PagesController@glossary');
 Route::get('/economic-calendar', 'App\Http\Controllers\PagesController@economiccalendar');
 Route::get('/mt4-one-minute-data', 'App\Http\Controllers\PagesController@mt4one');
 Route::get('/platforms', 'App\Http\Controllers\PagesController@platforms');
+Route::get('/daily-analysis', 'App\Http\Controllers\PagesController@dailyanalysis');
 
 
 Route::get('/contact-us', [ContactController::class,'contact']);

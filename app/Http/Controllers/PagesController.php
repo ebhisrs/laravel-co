@@ -93,4 +93,7 @@ class PagesController extends Controller
     public function platforms(){
         return view('pages.platforms');
     }
+    public function dailyanalysis(){
+        return view('pages.daily-analysis');
+    }
 }
