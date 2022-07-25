@@ -2,25 +2,25 @@
 
 namespace App\Mail;
 
+use App\Models\Contactus;
 use Illuminate\Bus\Queueable;
-use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
+use Illuminate\Contracts\Queue\ShouldQueue;
 
 class ContactMail extends Mailable
 {
     use Queueable, SerializesModels;
 
-    public $details;
+    protected $contactus;
     /**
      * Create a new message instance.
      *
      * @return void
      */
-    public function __construct($details)
+    public function __construct(Contactus $contactus)
     {
-        //
-        $this->details = $details;
+        $this->contactus = $contactus;
     }
 
     /**
@@ -30,6 +30,11 @@ class ContactMail extends Mailable
      */
     public function build()
     {
-        return $this->subject('Contact Message')->view('emails.ContactMails');
+        return $this->from('FXDDMENA@gmail.com')->view('mail.contactus-mail')->subject('contact us')->with([
+            'contactusFirstName' => $this->contactus->firstName,
+            'contactusLastName' => $this->contactus->lastName,
+            'contactusEmail' => $this->contactus->email,
+            'contactusInquiryDetails' => $this->contactus->inquiryDetails
+        ]);
     }
 }
